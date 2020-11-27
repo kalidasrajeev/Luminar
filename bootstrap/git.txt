@@ -11,5 +11,7 @@
 command for adding files to local repository
 -git commit -m "this is first commit"
 
+
 push
+git remote add 'name' link
 git push 'name' master
