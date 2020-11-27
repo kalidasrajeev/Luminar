@@ -1,0 +1,39 @@
+h1
+{
+    color: red;
+    text-align: center;
+}
+#team
+{
+    color: lightblue;
+}
+
+div
+{
+    border: 1px solid black;
+    background-color: yellow;
+    width: 50%;
+    color: white;
+    margin: auto;
+}
+#csk
+{
+    background-image: url(csk.jpg);
+}
+#mi
+{
+   border: 1px solid gold;
+   background: blue; 
+}
+
+#rcb
+{
+   border: 1px solid red;
+   background: black; 
+}
+
+#kings
+{
+    border: 1px solid red;
+    background-color: silver;
+}

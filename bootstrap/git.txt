@@ -1,0 +1,8 @@
+1.command for initializing git
+-git init
+
+2.command for listing all untracked files
+-git status
+
+3.command for adding all untracked files to staging area
+-git add -A 

@@ -1,0 +1,40 @@
+#parent
+{
+    display: flex;
+    margin-left: 250px;
+}
+
+h1
+{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.child
+{
+    width: 150px;
+    height: 400px;
+    background-color: lightblue;
+    margin: 10px;
+}
+
+.child:nth-child(1) {
+    background: blue;
+}
+
+.child:nth-child(2) {
+    background: aqua;
+}
+
+
+.child:nth-child(3) {
+    background: aquamarine;
+}
+
+.child:nth-child(4) {
+    background: lightblue;
+}
+
+.child:nth-child(5) {
+    background: magenta;
+}
