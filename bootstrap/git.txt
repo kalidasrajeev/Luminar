@@ -6,3 +6,7 @@
 
 3.command for adding all untracked files to staging area
 -git add -A 
+-git add filename
+
+command for adding files to local repository
+-git commit -m "this is first commit"
