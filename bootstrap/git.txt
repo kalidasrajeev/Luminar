@@ -13,5 +13,5 @@ command for adding files to local repository
 
 
 push
-git remote add 'name' link
+git remote add 'name' link  
 git push 'name' master
