@@ -10,6 +10,7 @@ var employeedata = [
 //q2) print all employee details who are devop
 //q3) print all employee details who are working in 1980s
 //q4) print exp>9
+
 console.log("q1")
 for(let emp of employeedata)
 {
