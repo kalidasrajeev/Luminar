@@ -1,0 +1,49 @@
+1.creating database
+- use "dbname"
+
+2.creating Collection  
+- db.createCollection("")
+
+3. listing collections
+- show collections
+
+4. inserting values into collections
+- db."collectionname".insert({rol:1000,name:"ann",course:"bca",total:240})
+
+5. listing values of a collections
+- db."name".find().pretty()
+
+6. insert many records
+- db.student.insertMany([{rol:1001,name:"anu",course:"bca",total:250},
+{rol:1002,name:"annie",course:"bca",total:230}
+])
+
+7. where condition
+- db.student.find({rol:1001})
+
+8. sort
+- db.student.find().sort({total:1}).pretty()
+
+9. not equal
+- db.student.find({course:{$ne:"mca"}}).pretty()
+
+10. findone
+- db.student.findOne({course:"bca"});
+
+11. only one column
+- db.student.find().forEach(st=>st.name))
+
+12. limit 
+- db.student.find().limit(2)
+
+13. update 
+- db.student.update({name:"jhony"},{$set:{rol:1007,course:"mca",total:250,gender:"male"}})
+
+14. delete
+- db.student.remove({name: "jhony"})
+
+15. find 
+- db.users.find({"name": /.*m.*/})
+- db.users.find({"name": /m/})
+- db.users.find({"name": /^an/})
+- db.users.find({"name": /an$/})
