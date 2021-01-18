@@ -47,3 +47,17 @@
 - db.users.find({"name": /m/})
 - db.users.find({"name": /^an/})
 - db.users.find({"name": /an$/})
+
+16. greater than
+- db.sbk.find({balance:{$gt:5000}}).pretty()
+
+17. greater than or equal
+- db.sbk.find({balance:{$gte:5000}}).pretty()
+
+18. less than 
+- db.sbk.find({balance:{$lt:5000}}).pretty()
+
+19. less than or equal
+- db.sbk.find({balance:{$lte:5000}}).pretty()
+
+20. 

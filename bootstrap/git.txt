@@ -15,3 +15,13 @@ command for adding files to local repository
 push
 git remote add 'name' link  https://github.com/kalidasrajeev/Luminar.git
 git push 'name' master
+
+
+branch
+
+git branch "new branch"
+git checkout "new branch"
+
+merging branches
+
+git merge "branch name"
